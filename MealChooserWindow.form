@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MealChooserWindow">
+  <grid id="27dc6" binding="mealChooserPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="871" height="595"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="Pomysł na ..."/>
+    <children>
+      <splitpane id="b9429">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <resizeWeight value="0.05"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="2d994" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="58bc">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="150" height="0"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <horizontalScrollBarPolicy value="30"/>
+                  <verticalScrollBarPolicy value="20"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="fbe0" class="javax.swing.JList" binding="recipesList">
+                    <constraints/>
+                    <properties>
+                      <background color="-6974059"/>
+                      <enabled value="true"/>
+                      <font/>
+                      <foreground color="-13356494"/>
+                      <minimumSize width="0" height="0"/>
+                      <selectionForeground color="-1"/>
+                      <selectionMode value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="6aa60" binding="recipePanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <background color="-13356494"/>
+            </properties>
+            <border type="none">
+              <font name="Segoe Print" size="28"/>
+              <title-color color="-1"/>
+            </border>
+            <children>
+              <grid id="e2bbf" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+                </constraints>
+                <properties>
+                  <background color="-13356494"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="1b99c" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13356494"/>
+                    </properties>
+                    <border type="none" title="Składniki i gramatury dla czterech osób">
+                      <font style="1"/>
+                      <title-color color="-1"/>
+                    </border>
+                    <children>
+                      <component id="88e97" class="javax.swing.JList" binding="ingredientsList">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1"/>
+                          <dropMode value="USE_SELECTION"/>
+                          <enabled value="false"/>
+                          <font name="Segoe Print"/>
+                          <foreground color="-16777216"/>
+                          <layoutOrientation value="1"/>
+                          <model>
+                            <item value="Masło"/>
+                            <item value="10 jajek"/>
+                            <item value="Chleb Graham"/>
+                          </model>
+                          <selectionMode value="0"/>
+                        </properties>
+                      </component>
+                      <component id="1c7a7" class="javax.swing.JList" binding="GramsList">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1"/>
+                          <dropMode value="USE_SELECTION"/>
+                          <enabled value="false"/>
+                          <font name="Segoe Print"/>
+                          <foreground color="-16777216"/>
+                          <layoutOrientation value="1"/>
+                          <model>
+                            <item value="Masło"/>
+                            <item value="10 jajek"/>
+                            <item value="Chleb Graham"/>
+                          </model>
+                          <selectionMode value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="3b393" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13356494"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="d53bc" class="javax.swing.JLabel" binding="pictureLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1"/>
+                          <horizontalAlignment value="0"/>
+                          <icon value="Images/Breakfast.jpg"/>
+                          <text value=""/>
+                          <verticalAlignment value="1"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="1aad0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13356494"/>
+                    </properties>
+                    <border type="none" title="Wartość kaloryczna dla jednej osoby">
+                      <font style="1"/>
+                      <title-color color="-1"/>
+                    </border>
+                    <children>
+                      <component id="600a1" class="javax.swing.JTextArea" binding="caloriesTextArea">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13356494"/>
+                          <editable value="false"/>
+                          <font name="Segoe Print" size="22" style="3"/>
+                          <foreground color="-1"/>
+                          <text value="116.76"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="57f91" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none" title="Przepis">
+                  <font style="1"/>
+                  <title-color color="-50924"/>
+                </border>
+                <children>
+                  <component id="c9787" class="javax.swing.JTextArea" binding="instructionsTextArea">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="true"/>
+                      <font name="Segoe Print"/>
+                      <text value="Tu będzie długi przepis"/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>
